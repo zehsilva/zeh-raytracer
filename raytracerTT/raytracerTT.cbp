@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="raytracerTT" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="all">
+				<Option output="raytracerTT" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="scene">
+				<Option output="raytracerTT" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="render">
+				<Option output="raytracerTT" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Basic.hh">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="BoundingSphere.cc" />
+		<Unit filename="BoundingSphere.hh" />
+		<Unit filename="DepthOfField.cc" />
+		<Unit filename="DepthOfField.hh" />
+		<Unit filename="DepthOfView.hh" />
+		<Unit filename="DiffuseShader.hh">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="FlatShader.hh">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Group.cc">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Group.hh">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Image.cc">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Image.hh">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="InfinitePlane.cc">
+			<Option target="all" />
+		</Unit>
+		<Unit filename="InfinitePlane.hh">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Makefile">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Miniball.h" />
+		<Unit filename="OffObject.hh" />
+		<Unit filename="OffObjectNEW.hh" />
+		<Unit filename="OrthoCamera.hh" />
+		<Unit filename="PerspectiveCamera.cc">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="PerspectiveCamera.hh">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="PhongShader.cc">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="PhongShader.hh">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Render.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Scene.cc">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Scene.hh">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Sphere.cc">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Sphere.hh">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Texture.cxx" />
+		<Unit filename="Texture.hxx" />
+		<Unit filename="Triangle.cc">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Triangle.hh">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Vec3f.hh">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="VolumeRegion.hxx" />
+		<Unit filename="glm.cc" />
+		<Unit filename="glm.hh" />
+		<Unit filename="kmeans2.cc" />
+		<Unit filename="kmeans2.hh" />
+		<Unit filename="main.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="orthoCamera.cc" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

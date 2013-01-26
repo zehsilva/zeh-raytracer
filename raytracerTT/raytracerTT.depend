@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1304914517 source:/home/eliezer/workspace/raytracerTT/PerspectiveCamera.cc
+	"PerspectiveCamera.hh"
+
+1304914385 /home/eliezer/workspace/raytracerTT/PerspectiveCamera.hh
+	"Basic.hh"
+
+1304914511 /home/eliezer/workspace/raytracerTT/Basic.hh
+	"Vec3f.hh"
+
+1304886881 /home/eliezer/workspace/raytracerTT/Vec3f.hh
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<time.h>
+	<math.h>
+	<assert.h>
+	<sys/times.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<strings.h>
+	<stdarg.h>
+	<errno.h>
+	<iostream>
+	<fstream>
+
+1304914817 source:/home/eliezer/workspace/raytracerTT/Scene.cc
+	"Scene.hh"
+	"PhongShader.hh"
+	"FlatShader.hh"
+	"Sphere.hh"
+	"Triangle.hh"
+
+1304913716 /home/eliezer/workspace/raytracerTT/Scene.hh
+	"PerspectiveCamera.hh"
+	"Group.hh"
+
+1304913546 /home/eliezer/workspace/raytracerTT/Group.hh
+	<vector>
+	"Basic.hh"
+
+1304914636 /home/eliezer/workspace/raytracerTT/PhongShader.hh
+	"Basic.hh"
+	"Scene.hh"
+
+1302045674 /home/eliezer/workspace/raytracerTT/FlatShader.hh
+	"Basic.hh"
+
+1304912863 /home/eliezer/workspace/raytracerTT/Sphere.hh
+	"Basic.hh"
+
+1304912985 /home/eliezer/workspace/raytracerTT/Triangle.hh
+	"Basic.hh"
+	"InfinitePlane.hh"
+
+1304886676 /home/eliezer/workspace/raytracerTT/InfinitePlane.hh
+	"Basic.hh"
+
+1304914756 source:/home/eliezer/workspace/raytracerTT/PhongShader.cc
+	"PhongShader.hh"
+	<math.h>
+
+1304913061 source:/home/eliezer/workspace/raytracerTT/Group.cc
+	"Group.hh"
+
+1304912998 source:/home/eliezer/workspace/raytracerTT/Triangle.cc
+	"Triangle.hh"
+
